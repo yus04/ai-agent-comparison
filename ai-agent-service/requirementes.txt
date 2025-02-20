@@ -1,0 +1,2 @@
+azure-ai-projects==1.0.0b6
+azure-identity==1.16.1
