@@ -6,9 +6,7 @@ from semantic_kernel import Kernel
 from semantic_kernel.functions import kernel_function
 from semantic_kernel.connectors.ai.open_ai import AzureChatCompletion
 from semantic_kernel.connectors.ai.function_choice_behavior import FunctionChoiceBehavior
-from semantic_kernel.connectors.ai.chat_completion_client_base import ChatCompletionClientBase
 from semantic_kernel.contents.chat_history import ChatHistory
-from semantic_kernel.functions.kernel_arguments import KernelArguments
 from semantic_kernel.connectors.ai.open_ai.prompt_execution_settings.azure_chat_prompt_execution_settings import (
     AzureChatPromptExecutionSettings,
 )
